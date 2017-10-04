@@ -1,23 +1,12 @@
-# Papyrus - Jekyll Theme
+# Curious Machines Blog
 
-Papyrus is a responsive three-column Jekyll theme with classic styling and careful typographic details.
+For this blog, I used the beautiful [Papyrus](https://github.com/hugoferreira/papyrus-theme) theme by Hugo Ferreira.
 
-Loosely based on the [Onelight Atom Theme](https://github.com/atom/one-light-ui).
+Modifications:
 
-## Install and Test
-
-1. Download or clone the repo
-  - `git clone git@github.com:hugoferreira/papyrus-theme.git`
-2. Enter the folder
-  - `cd papyrus-theme/`
-3. Start Jekyll server
-  - `jekyll serve --watch`
-4. Access via
-  - http://127.0.0.1:4000/papyrus-theme/
-
-## Demo
-
-- http://hugosereno.eu
+* I wasn't a fan of the MathJax rendering time, so I switched to the [KaTeX](https://github.com/Khan/KaTeX) library by Khan Academy.
+The rendering times are much, much better, and the math looks better.
+* I also added Disqus to each blog post.
 
 ## Preview
 

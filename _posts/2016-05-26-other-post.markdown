@@ -15,6 +15,8 @@ It's amazing how a simple puzzle installs chaos among mathematicians and philoso
 
 As many things in life, it's all a matter of perspective. And the conundrum here lies in the way the problem is phrased. But before going into maths and probability theory, we shall **simulate**:
 
+$$\sum_{i=0}^\infty n^i$$
+
 ```scala
 var correct = 0
 var questions = 0
