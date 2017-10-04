@@ -1,5 +1,5 @@
 # Site settings
-title: "Curious Agents"
+title: "Curious Machines"
 author: "Steven Schmatz"
 description: "This is primarily a technical blog, focused on the fields of reinforcement learning, machine intelligence, mathematics, and art."
 keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
@@ -7,7 +7,7 @@ biography: "I am Steven Schmatz, an incoming graduate student in the <a href='ht
 colophon: "Content available under the <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons</a> license unless otherwise noted.<br>"
 
 baseurl: ""
-url: "http://hugosereno.eu"
+url: "https://stevenschmatz.com"
 
 twitter_username: stevenschmatz
 github_username: stevenschmatz

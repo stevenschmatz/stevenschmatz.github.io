@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Sleeping Beauty
+title: Gaussian Integers
 date: 2016-05-28 15:46
 comments: true
 external-url:
 categories:
-- Machine Learning
+- Mathematics
 comments: true
 ---
 
@@ -44,6 +44,8 @@ println("Probability of Heads being tossed: " + heads.toDouble/trials)
 ```
 
 Here's a sample run:
+
+$$Hello world$$
 
 ```
 Probability of SB being correct: 0.33636242148870776
