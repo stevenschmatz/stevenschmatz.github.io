@@ -4,21 +4,5 @@
   <body>
     {{ content }}
     {% include footer.html %}
-    <script>
-        [].forEach.call(document.getElementsByTagName('script'), function(s) {
-            if (s.type == 'math/tex; mode=display') {
-                s.replaceWith('$$' + s.innerHTML + '$$');
-            }
-        });
-
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "\\[", right: "\\]", display: true},
-                {left: "\\(", right: "\\)", display: false},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    </script>
   </body>
 </html>

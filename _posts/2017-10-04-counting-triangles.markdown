@@ -17,7 +17,7 @@ One of my favorite [Project Euler](https://projecteuler.net) problems is the [Co
 >
 > Let $H(n)$ be the number of all regular hexagons that can be found by connecting 6 of these points.
 >
-> <center><img src='/assets/p577_counting_hexagons.png'/></center>
+> <center><img style='max-width: 300px' src='/assets/p577_counting_hexagons.png'/></center>
 > <br>
 >
 > For example, $H(3) = 1, H(6) = 12$, and $H(20) = 966$.
@@ -70,7 +70,9 @@ $$H_1(4) = H_1(3) + 2$$
 
 If we add an additional layer, there are three *additional* spots that our triangle could be in:
 
-$$H_1(5) = H_1(4) + 3 = H_1(2) + 3 + 2 = 3 + 2 + 1$$
+$$H_1(5) = H_1(4) + 3 = H_1(2) + 3 + 2$$
+
+$$H_1(5) = 3 + 2 + 1$$
 
 At every additional hereafter, we add $n - 2$ more rows. Hence, we can express $H_1$ in a summation:
 
@@ -105,7 +107,7 @@ def num_hex_tiles(n: int, hexagon_size: int) -> int:
 Finally, one complication is that hexagons can be placed *diagonally*.
 For example:
 
-<center><img style='max-width: 500px' src='/assets/p577_hex_rotation.png'/></center>
+<center><img src='/assets/p577_hex_rotation.png'/></center>
 
 Fortunately, the solution is simple.
 All the points that constitute a hexagonal rotation lie on the hexagonal edge.

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46002b90-6a68-4ebb-a5d5-775e6bf7244f" name="Default" comment="Change title">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown" afterPath="$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="582">
-                <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+              <first_editor relative-caret-position="422">
+                <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -30,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,78 +52,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/blog/2017/10/04/counting-triangles/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1074">
-              <caret line="296" column="31" lean-forward="false" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
+            <state relative-caret-position="654">
+              <caret line="302" column="9" lean-forward="false" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="9" />
               <folding>
-                <marker date="1507165911000" expanded="true" signature="9114:10841" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="9137:10835" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="9160:10829" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="9166:10823" ph="..." />
-                <marker date="1507165911000" expanded="false" signature="9370:9374" ph="&gt;" />
-                <marker date="1507165911000" expanded="false" signature="10017:10021" ph="&gt;" />
-                <marker date="1507165911000" expanded="false" signature="10271:10275" ph="&lt;" />
-                <marker date="1507165911000" expanded="true" signature="10899:10993" ph="..." />
-                <marker date="1507165911000" expanded="false" signature="11016:11032" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="11085:11448" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="11497:12634" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="11520:12628" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="11543:12622" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="11549:12616" ph="..." />
-                <marker date="1507165911000" expanded="false" signature="11868:11872" ph="&gt;" />
-                <marker date="1507165911000" expanded="false" signature="12003:12007" ph="&lt;" />
-                <marker date="1507165911000" expanded="true" signature="12770:15727" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="12793:15721" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="12816:15715" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="12822:15709" ph="..." />
-                <marker date="1507165911000" expanded="false" signature="13026:13030" ph="&gt;" />
-                <marker date="1507165911000" expanded="false" signature="13669:13673" ph="&gt;" />
-                <marker date="1507165911000" expanded="false" signature="13804:13808" ph="&lt;" />
-                <marker date="1507165911000" expanded="false" signature="14614:14618" ph="&gt;" />
-                <marker date="1507165911000" expanded="true" signature="15967:16910" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="15982:16258" ph="/**  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. ...*/" />
-                <marker date="1507165911000" expanded="true" signature="16271:16571" ph="/*...*/" />
-                <marker date="1507165911000" expanded="true" signature="16596:16889" ph="{...}" />
-                <marker date="1507165911000" expanded="true" signature="17115:18816" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17141:18806" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17173:18576" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17202:17452" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17481:17668" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17697:18565" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17763:17919" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17819:17902" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="17957:18115" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18014:18098" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18153:18339" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18227:18322" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18377:18541" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18439:18524" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18613:18792" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="18830:19394" ph="..." />
-                <marker date="1507165911000" expanded="true" signature="19338:19379" ph="{...}" />
-                <marker date="1507165911000" expanded="true" signature="19338:19369" ph="[...]" />
+                <element signature="n#style#0;n#img#0;n#center#0;n#blockquote#0;n#article#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1507166504000" expanded="false" signature="7455:7459" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="10166:10170" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="10813:10817" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="11067:11071" ph="&lt;" />
+                <marker date="1507166504000" expanded="false" signature="12639:12643" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="12774:12778" ph="&lt;" />
+                <marker date="1507166504000" expanded="false" signature="13797:13801" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="14440:14444" ph="&gt;" />
+                <marker date="1507166504000" expanded="false" signature="14575:14579" ph="&lt;" />
+                <marker date="1507166504000" expanded="false" signature="15385:15389" ph="&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="400">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -182,14 +139,14 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/_site/blog/2016/05/28/sleeping-beauty/index.html" />
         <option value="$PROJECT_DIR$/_posts/2016-05-28-sleeping-beauty.markdown" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2016-05-26-other-post.markdown" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_site/blog/2017/10/04/counting-triangles/index.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
@@ -364,7 +321,7 @@
       <workItem from="1507148195303" duration="11000" />
       <workItem from="1507148214694" duration="152000" />
       <workItem from="1507148375202" duration="186000" />
-      <workItem from="1507148570162" duration="13423000" />
+      <workItem from="1507148570162" duration="13972000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -377,7 +334,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13974000" />
+    <option name="totallyTimeSpent" value="14523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -598,11 +555,11 @@
         <state relative-caret-position="400">
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <marker date="1507165911000" expanded="true" signature="8140:8187" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="8140:8201" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="8140:8211" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="8140:8799" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="8176:8187" ph="..." />
+            <marker date="1507166504000" expanded="true" signature="8140:8187" ph="..." />
+            <marker date="1507166504000" expanded="true" signature="8140:8201" ph="..." />
+            <marker date="1507166504000" expanded="true" signature="8140:8211" ph="..." />
+            <marker date="1507166504000" expanded="true" signature="8861:8870" ph="..." />
+            <marker date="1507166504000" expanded="true" signature="8176:8187" ph="..." />
           </folding>
         </state>
       </provider>
@@ -694,37 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="582">
-            <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -740,65 +670,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="422">
+            <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_site/blog/2017/10/04/counting-triangles/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1074">
-          <caret line="296" column="31" lean-forward="false" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
+        <state relative-caret-position="654">
+          <caret line="302" column="9" lean-forward="false" selection-start-line="302" selection-start-column="9" selection-end-line="302" selection-end-column="9" />
           <folding>
-            <marker date="1507165911000" expanded="true" signature="9114:10841" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="9137:10835" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="9160:10829" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="9166:10823" ph="..." />
-            <marker date="1507165911000" expanded="false" signature="9370:9374" ph="&gt;" />
-            <marker date="1507165911000" expanded="false" signature="10017:10021" ph="&gt;" />
-            <marker date="1507165911000" expanded="false" signature="10271:10275" ph="&lt;" />
-            <marker date="1507165911000" expanded="true" signature="10899:10993" ph="..." />
-            <marker date="1507165911000" expanded="false" signature="11016:11032" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="11085:11448" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="11497:12634" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="11520:12628" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="11543:12622" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="11549:12616" ph="..." />
-            <marker date="1507165911000" expanded="false" signature="11868:11872" ph="&gt;" />
-            <marker date="1507165911000" expanded="false" signature="12003:12007" ph="&lt;" />
-            <marker date="1507165911000" expanded="true" signature="12770:15727" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="12793:15721" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="12816:15715" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="12822:15709" ph="..." />
-            <marker date="1507165911000" expanded="false" signature="13026:13030" ph="&gt;" />
-            <marker date="1507165911000" expanded="false" signature="13669:13673" ph="&gt;" />
-            <marker date="1507165911000" expanded="false" signature="13804:13808" ph="&lt;" />
-            <marker date="1507165911000" expanded="false" signature="14614:14618" ph="&gt;" />
-            <marker date="1507165911000" expanded="true" signature="15967:16910" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="15982:16258" ph="/**  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. ...*/" />
-            <marker date="1507165911000" expanded="true" signature="16271:16571" ph="/*...*/" />
-            <marker date="1507165911000" expanded="true" signature="16596:16889" ph="{...}" />
-            <marker date="1507165911000" expanded="true" signature="17115:18816" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17141:18806" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17173:18576" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17202:17452" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17481:17668" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17697:18565" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17763:17919" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17819:17902" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="17957:18115" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18014:18098" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18153:18339" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18227:18322" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18377:18541" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18439:18524" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18613:18792" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="18830:19394" ph="..." />
-            <marker date="1507165911000" expanded="true" signature="19338:19379" ph="{...}" />
-            <marker date="1507165911000" expanded="true" signature="19338:19369" ph="[...]" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#blockquote#0;n#article#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1507166504000" expanded="false" signature="7455:7459" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="10166:10170" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="10813:10817" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="11067:11071" ph="&lt;" />
+            <marker date="1507166504000" expanded="false" signature="12639:12643" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="12774:12778" ph="&lt;" />
+            <marker date="1507166504000" expanded="false" signature="13797:13801" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="14440:14444" ph="&gt;" />
+            <marker date="1507166504000" expanded="false" signature="14575:14579" ph="&lt;" />
+            <marker date="1507166504000" expanded="false" signature="15385:15389" ph="&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

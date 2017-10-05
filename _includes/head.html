@@ -31,6 +31,24 @@
             integrity="sha384-RkgGHBDdR8eyBOoWeZ/vpGg1cOvSAJRflCUDACusAAIVwkwPrOUYykglPeqWakZu"
             crossorigin="anonymous"></script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        [].forEach.call(document.getElementsByTagName('script'), function(s) {
+            if (s.type == 'math/tex; mode=display') {
+                s.replaceWith('$$' + s.innerHTML + '$$');
+            }
+        });
+
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "\\(", right: "\\)", display: false},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+    </script>
 
 
     </head>
