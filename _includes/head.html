@@ -33,11 +33,14 @@
 
     <script>
     document.addEventListener("DOMContentLoaded", function() {
-        [].forEach.call(document.getElementsByTagName('script'), function(s) {
-            if (s.type == 'math/tex; mode=display') {
+        var scripts = document.getElementsByTagName('script');
+
+        for (var i = scripts.length - 1; i >= 0; i--) {
+            var s = scripts[i];
+            if (s.type === 'math/tex; mode=display') {
                 s.replaceWith('$$' + s.innerHTML + '$$');
             }
-        });
+        }
 
         renderMathInElement(document.body, {
             delimiters: [
@@ -47,6 +50,7 @@
                 {left: "$", right: "$", display: false}
             ]
         });
+
     });
     </script>
 
