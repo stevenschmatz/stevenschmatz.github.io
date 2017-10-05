@@ -3,7 +3,7 @@ layout: post
 title: Counting Triangles
 date: 2017-10-04 15:46
 comments: true
-external-url:
+external-url: counting-triangles
 categories:
 - Mathematics
 comments: true
@@ -47,7 +47,7 @@ def main():
 
 First, let's break down the problem into more manageable subgoals.
 By inspection, one can find that the side length for a hexagon is **at most** $\lfloor \frac{n}{3} \rfloor$.
-The minimum triangle side length is, of course, $1$.
+The minimum hexagon side length is, of course, $1$.
 Assume we have a function `num_hex_tiles(n, i)` which gives us the number of triangles of size $i$ that can fit in a triangle of size $n$.
 Our solution would then be:
 
