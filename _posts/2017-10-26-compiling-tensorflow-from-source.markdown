@@ -34,7 +34,7 @@ Install instructions are [here](https://docs.bazel.build/versions/master/install
 
 Also, you will need to know what instruction sets your machine supports. To find this, open up a Python interpreter and run:
 
-```python
+```
 >>> import tensorflow as tf
 >>> tf.Session()
 The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
