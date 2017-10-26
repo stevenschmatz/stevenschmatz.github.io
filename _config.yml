@@ -3,7 +3,7 @@ title: "Curious Machines"
 author: "Steven Schmatz"
 description: "This is primarily a technical blog, focused on the fields of reinforcement learning, machine intelligence, mathematics, and art."
 keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: "I am Steven Schmatz, an incoming graduate student in the <a href='https://umich.edu'>University of Michigan</a>'s engineering school. I currently focus on research in deep reinforcement learning."
+biography: "I am Steven Schmatz, an incoming graduate student in the <a href='https://umich.edu'>University of Michigan</a>'s engineering school. I currently focus on research in deep reinforcement learning. I am working on a <a href='https://stevenschmatz.gitbooks.io/deep-reinforcement-learning/content/'>small book</a> on deep reinforcement learning techniques."
 colophon: "Content available under the <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons</a> license unless otherwise noted.<br>"
 
 baseurl: ""
