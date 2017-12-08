@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46002b90-6a68-4ebb-a5d5-775e6bf7244f" name="Default" comment="Change title">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Fibonacci.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fib_exponential.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fib_tree.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/pascal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/table.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tiling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tiling2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tiling_recursion_1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tiling_recursion_2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/stevenschmatz.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/stevenschmatz.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017-12-11-dynamic-programming-1.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown">
+      <file leaf-file-name="2017-12-11-dynamic-programming-2.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <first_editor relative-caret-position="832">
+                <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -84,6 +73,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown" />
       </list>
     </option>
   </component>
@@ -262,7 +252,7 @@
       <workItem from="1507169267211" duration="59000" />
       <workItem from="1509052766276" duration="4455000" />
       <workItem from="1512671851539" duration="9481000" />
-      <workItem from="1512697491506" duration="9296000" />
+      <workItem from="1512697491506" duration="17569000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -275,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38995000" />
+    <option name="totallyTimeSpent" value="47268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="152" y="0" width="1527" height="1200" extended-state="0" />
@@ -615,8 +605,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="100">
-            <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <first_editor relative-caret-position="540">
+            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="832">
+            <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
