@@ -7,6 +7,7 @@ layout: default
     max-width: 500px;
   }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <div class="post">
   <div class="container main">
     <div class="row">
@@ -27,6 +28,20 @@ layout: default
         </article>
 
         <br>
+
+        <script>
+            $("script[type='math/tex']").replaceWith(function() {
+                var tex = $(this).text();
+                return katex.renderToString(tex, {displayMode: false});
+            });
+
+            $("script[type='math/tex; mode=display']").replaceWith(function() {
+                var tex = $(this).html();
+                // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+                // which is unfortunate (and should probably be reported).
+                return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+            });
+        </script>
 
         {% if page.comments %}
         <div id="disqus_thread"></div>
