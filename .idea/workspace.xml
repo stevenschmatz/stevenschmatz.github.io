@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46002b90-6a68-4ebb-a5d5-775e6bf7244f" name="Default" comment="Change title">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-07-introduction-to-dynamic-programming.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-07-intermediate-dynamic-programming.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017-12-11-dynamic-programming-3.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown">
+      <file leaf-file-name="2017-12-11-dynamic-programming-in-policy-iteration.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="740">
-                <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+              <first_editor relative-caret-position="580">
+                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -255,7 +253,7 @@
       <workItem from="1509052766276" duration="4455000" />
       <workItem from="1512671851539" duration="9481000" />
       <workItem from="1512697491506" duration="18972000" />
-      <workItem from="1512954981846" duration="8778000" />
+      <workItem from="1512954981846" duration="8883000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -268,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57449000" />
+    <option name="totallyTimeSpent" value="57554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -310,7 +308,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="380">
@@ -638,11 +636,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="740">
-            <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <first_editor relative-caret-position="580">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
