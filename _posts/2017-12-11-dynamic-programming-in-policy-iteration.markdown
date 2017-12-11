@@ -61,19 +61,21 @@ It is up to the agent to act in such a way to see highly positive rewards often,
 Let us come up with a formalization of this goal of the agent.
 We define a (deterministic) policy $$\pi$$ to be a mapping from state to action, that is:
 
+
 $$
 \pi(a | s) = \begin{cases}
-1 &\text{if action $a$ is taken in state $s$} \\
-0 &\text{otherwise}
+1 \text{ if action $a$ is taken in state $s$} \\
+0 \text{ otherwise}
 \end{cases}
 $$
 
 A natural goal would be to find a policy $$\pi$$ that maximizes the expected sum of total reward over all timesteps in the episode, also known as the _return_ $$G_t$$:
 
+
 $$
 \begin{aligned}
-G_t &= R_t + R_{t+1} + R_{t+2} + \cdots \\
-    &= \sum_{k = 0}^T R_{t+k} \\
+G_t= R_t + R_{t+1} + R_{t+2} + \cdots \\
+    = \sum_{k = 0}^T R_{t+k} \\
 \end{aligned}
 $$
 
@@ -84,8 +86,8 @@ To remedy this problem, we introduce a _discount factor_ $$\gamma$$ such that ea
 
 $$
 \begin{aligned}
-G_t &= R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots \\
-    &= \sum_{k=0}^\infty \gamma^k R_{t+k}
+G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots \\
+    = \sum_{k=0}^\infty \gamma^k R_{t+k}
 \end{aligned}
 $$
 
@@ -192,3 +194,4 @@ Then, the algorithm would find a shortest path to the positive reward terminal s
 Policy iteration is one of the foundational algorithms in all of reinforcement learning and learning optimal control.
 We introduced the concepts of a Markov Decision Process (MDP), such as expected discounted reward, and a value function.
 We then informally derived the algorithm for policy iteration, and showed visually how it finds the optimal policy and value function.
+

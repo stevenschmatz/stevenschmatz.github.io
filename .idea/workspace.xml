@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46002b90-6a68-4ebb-a5d5-775e6bf7244f" name="Default" comment="Change title">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="580">
-                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <first_editor relative-caret-position="442">
+                <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -39,6 +41,8 @@
       <find>Your awesome title</find>
       <find>mathjax</find>
       <find>300j</find>
+      <find>deterministic</find>
+      <find>&amp;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,14 +70,15 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_site/blog/2017/10/04/counting-triangles/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_posts/2017-10-04-counting-triangles.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-10-26-compiling-tensorflow-from-source.markdown" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-3.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-2.markdown" />
         <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-1.markdown" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" />
       </list>
     </option>
   </component>
@@ -135,17 +140,17 @@
             <path>
               <item name="stevenschmatz.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="stevenschmatz.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stevenschmatz.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stevenschmatz.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stevenschmatz.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="stevenschmatz.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stevenschmatz.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stevenschmatz.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stevenschmatz.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -253,7 +258,7 @@
       <workItem from="1509052766276" duration="4455000" />
       <workItem from="1512671851539" duration="9481000" />
       <workItem from="1512697491506" duration="18972000" />
-      <workItem from="1512954981846" duration="8883000" />
+      <workItem from="1512954981846" duration="9856000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -266,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57554000" />
+    <option name="totallyTimeSpent" value="58527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -530,24 +535,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-28-sleeping-beauty.markdown" />
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1063">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -590,36 +581,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-26-compiling-tensorflow-from-source.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="140">
             <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-07-introduction-to-dynamic-programming.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1034">
-            <caret line="296" column="66" lean-forward="false" selection-start-line="296" selection-start-column="66" selection-end-line="296" selection-end-column="66" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -636,11 +602,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-07-introduction-to-dynamic-programming.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="638">
+            <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480942938000" expanded="true" signature="41:2126" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="72:2119" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="94:1827" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="109:1816" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="274:1800" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="303:1791" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="330:1784" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="1849:2110" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="1925:2098" ph="..." />
+            <marker date="1480942938000" expanded="true" signature="1953:2085" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1507166503000" expanded="true" signature="21:122" ph="..." />
+            <marker date="1507166503000" expanded="true" signature="56:114" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <marker date="1513011959064" expanded="true" signature="5:3086" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="1153:3086" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="1497:1613" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="1793:1911" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="2208:2349" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="2363:3071" ph="..." />
+            <marker date="1513011959064" expanded="true" signature="2426:3056" ph="{...}" />
+            <marker date="1513011959064" expanded="true" signature="2546:2716" ph="{...}" />
+            <marker date="1513011959064" expanded="true" signature="2633:2706" ph="{...}" />
+            <marker date="1513011959064" expanded="true" signature="2761:3047" ph="{...}" />
+            <marker date="1513011959064" expanded="true" signature="2787:3037" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1513011967958" expanded="true" signature="30:90" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="38:82" ph="{...}" />
+            <marker date="1513011967958" expanded="true" signature="198:4126" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="229:4119" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="251:1984" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="266:1973" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="431:1957" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="460:1948" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="487:1941" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="2006:4110" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="2082:4098" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="2110:2242" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="2344:3287" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="2359:2635" ph="/**  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. ...*/" />
+            <marker date="1513011967958" expanded="true" signature="2648:2948" ph="/*...*/" />
+            <marker date="1513011967958" expanded="true" signature="2973:3266" ph="{...}" />
+            <marker date="1513011967958" expanded="true" signature="3445:4063" ph="..." />
+            <marker date="1513011967958" expanded="true" signature="3511:3640" ph="{...}" />
+            <marker date="1513011967958" expanded="true" signature="3722:4044" ph="{...}" />
+            <marker date="1513011967958" expanded="true" signature="3782:3939" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="580">
-            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <first_editor relative-caret-position="442">
+            <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
             <folding />
           </first_editor>
           <second_editor />
