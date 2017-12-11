@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Dynamic Programming
 date: 2017-12-06 17:24
 comments: true
-external-url: dynamic-programming-1
+external-url: introduction-to-dynamic-programming
 categories:
 - Algorithms
 comments: true
@@ -294,4 +294,4 @@ Note that we store our values in intermediate variables, because otherwise we wo
 As you can see, dynamic programming can be an incredibly powerful paradigm.
 Even simple linear table-filling algorithms like the one presented for Fibonacci can make an exponential algorithm run in linear time.
 As was shown in the second example, there can be a large amount of variety in how values are constructed from previous values.
-In my next post, I will cover dynamic programming algorithms that operate on two-dimensional tables and even trees.
+In my [next post](https://stevenschmatz.github.io/blog/2017/12/07/intermediate-dynamic-programming/), I will cover dynamic programming algorithms that operate on two-dimensional tables and even trees.

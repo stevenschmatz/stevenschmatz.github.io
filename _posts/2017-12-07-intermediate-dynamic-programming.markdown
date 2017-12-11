@@ -3,13 +3,13 @@ layout: post
 title: Intermediate Dynamic Programming 
 date: 2017-12-07 12:24
 comments: true
-external-url: dynamic-programming-2
+external-url: intermediate-dynamic-programming
 categories:
 - Algorithms
 comments: true
 ---
 
-In my [last post](https://stevenschmatz.github.io/blog/2017/12/06/dynamic-programming-1/), I introduced some basic ideas of dynamic programming and showed how efficient algorithms can emerge from this concept of table-filling.
+In my [last post](https://stevenschmatz.github.io/blog/2017/12/06/introduction-to-dynamic-programming/), I introduced some basic ideas of dynamic programming and showed how efficient algorithms can emerge from this concept of table-filling.
 The goal of this blog post is to extend this idea of table-filling to two-dimensional tables, as well as to trees.
 In this post, I also want to introduce the concept of decorator-based memoization, to simplify DP code.
 
@@ -219,3 +219,4 @@ Note how easy `memoize` makes the implementation for us. We do not need to const
 
 In this post, we discussed doing DP in the case with a grid of values and also with a tree of values.
 We also introduced decorator-based caching methods, which can be used to express our code recursively while still having table-filling behavior.
+The final post in this series explores an [application of dynamic programming in reinforcement learning](https://stevenschmatz.github.io/blog/2017/12/11/dynamic-programming-in-policy-iteration/).
