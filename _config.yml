@@ -19,3 +19,6 @@ simple_search: https://google.com/search
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-seo-tag
