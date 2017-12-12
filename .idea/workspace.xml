@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="320">
-                <caret line="155" column="88" lean-forward="false" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="88" />
+              <first_editor relative-caret-position="750">
+                <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -256,7 +256,7 @@
       <workItem from="1509052766276" duration="4455000" />
       <workItem from="1512671851539" duration="9481000" />
       <workItem from="1512697491506" duration="18972000" />
-      <workItem from="1512954981846" duration="10294000" />
+      <workItem from="1512954981846" duration="10355000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -269,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58965000" />
+    <option name="totallyTimeSpent" value="59026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -693,8 +693,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="320">
-            <caret line="155" column="88" lean-forward="false" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="88" />
+          <first_editor relative-caret-position="750">
+            <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
             <folding />
           </first_editor>
           <second_editor />

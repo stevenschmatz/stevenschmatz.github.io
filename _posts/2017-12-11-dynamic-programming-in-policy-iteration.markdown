@@ -73,10 +73,8 @@ A natural goal would be to find a policy $$\pi$$ that maximizes the expected sum
 
 
 $$
-\begin{aligned}
-G_t= R_t + R_{t+1} + R_{t+2} + \cdots \\
-    = \sum_{k = 0}^T R_{t+k} \\
-\end{aligned}
+G_t= R_t + R_{t+1} + R_{t+2} + \cdots
+    = \sum_{k = 0}^T R_{t+k}
 $$
 
 Where $$T$$ denotes timestep of the end of the episode.
@@ -85,10 +83,8 @@ In this case, the sum would be an infinite sum and would diverge.
 To remedy this problem, we introduce a _discount factor_ $$\gamma$$ such that each reward gets weighted by a multiplicative term which is between 0 and 1:
 
 $$
-\begin{aligned}
-G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots \\
+G_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots
     = \sum_{k=0}^\infty \gamma^k R_{t+k}
-\end{aligned}
 $$
 
 Since our return may be different every time, because taking the same action in a given state may lead to different results according to the transition model, we want to maximize the expected cumulative discounted reward.
