@@ -95,7 +95,7 @@ Since our return may be different every time, because taking the same action in 
 This is known as the _optimal policy_ $$\pi^*$$:
 
 $$
-\pi^* = \max_\pi \mathop{\mathbb{E}}_\pi \left[ \sum_{k=0}^T \gamma_k R_{t+k} \right]
+\pi^* = \max_\pi \mathop{\mathbb{E}}_\pi \left[ \sum_{k=0}^T \gamma^k R_{t+k} \right]
 $$
 
 This is the reinforcement learning problem. Given an MDP as a 5-tuple $$(\mathcal{S}, \mathcal{A}, \mathcal{T}, \mathcal{R}, \gamma)$$, find the optimal policy $$\pi^*$$ that maximizes expected cumulative discounted reward.
@@ -153,7 +153,7 @@ This looks like this:
 <center><img src='/assets/grid_world.png' style='max-width: 300px'/></center>
 <br>
 
-Notice also how there is a wall in the middle of the map, which prevents movement in that direction. Notably, here we are going to say that the discount factor $$\gamma = 0$$, and there is no noise - that is, each action deterministically takes the agent to the next state pointed to by the arrow.
+Notice also how there is a wall in the middle of the map, which prevents movement in that direction. Notably, here we are going to say that the discount factor $$\gamma = 1$$, and there is no noise - that is, each action deterministically takes the agent to the next state pointed to by the arrow.
 
 For now, let's define our policy $$\pi_0$$ to be the policy that moves in any valid direction with equal probability. This is known as the _equiprobable policy_.
 

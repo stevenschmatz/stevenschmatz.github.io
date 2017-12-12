@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46002b90-6a68-4ebb-a5d5-775e6bf7244f" name="Default" comment="Change title">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" afterPath="$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="442">
-                <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+              <first_editor relative-caret-position="320">
+                <caret line="155" column="88" lean-forward="false" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="88" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -258,7 +256,7 @@
       <workItem from="1509052766276" duration="4455000" />
       <workItem from="1512671851539" duration="9481000" />
       <workItem from="1512697491506" duration="18972000" />
-      <workItem from="1512954981846" duration="9856000" />
+      <workItem from="1512954981846" duration="10294000" />
     </task>
     <task id="LOCAL-00001" summary="Add Jekyll">
       <created>1507148881581</created>
@@ -271,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58527000" />
+    <option name="totallyTimeSpent" value="58965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -695,8 +693,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-11-dynamic-programming-in-policy-iteration.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="442">
-            <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+          <first_editor relative-caret-position="320">
+            <caret line="155" column="88" lean-forward="false" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="88" />
             <folding />
           </first_editor>
           <second_editor />
