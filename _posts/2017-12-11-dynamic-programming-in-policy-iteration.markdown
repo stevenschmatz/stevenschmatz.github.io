@@ -10,7 +10,7 @@ categories:
 comments: true
 ---
 
-[Richard Bellman](https://en.wikipedia.org/wiki/Richard_E._Bellman) was a many of many talents.
+[Richard Bellman](https://en.wikipedia.org/wiki/Richard_E._Bellman) was a man of many talents.
 In addition to introducing dynamic programming, one of the most general and powerful algorithmic techniques used still today, he also pioneered the following:
 
 * The Bellman-Ford algorithm, for computing single-source shortest paths
